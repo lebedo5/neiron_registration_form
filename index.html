@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Partical logen</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="all.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="particles-js">
+      <div class="form-container sig-up-container">
+        <form id="form" action="">
+          <h1>Creat Acount</h1>
+          <div class="social_container">
+            <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="" class="social"><i class="fab fa-telegram-plane"></i></a>
+            <a href="" class="social"><i class="fab fa-github"></i></a>
+          </div>
+          <span>or use your email for registration</span>
+          <input class="id_name" maxlength="8" type="text" placeholder="Name" />
+          <input maxlength="20" type="email" placeholder="Email" />
+          <input maxlength="12" type="password" placeholder="Password" />
+          <button
+            class="button_sign"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            Sign Up
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS.load("particles-js", "particles.json", function () {
+        console.log("callback - particles.js config loaded");
+      });
+    </script>
+    <script src="all.js"></script>
+  </body>
+</html>

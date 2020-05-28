@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font: normal 16px "Montserrat", sand-serif;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  background: #f6f5f7;
+}
+.fa-facebook {
+  background: #2fc4b2;
+}
+#particles-js {
+  background: #f6f5f7;
+  height: 700px;
+}
+#form {
+  height: 450px;
+  width: 350px;
+  background: #2fc4b2;
+  opacity: 0.95;
+  padding: 2em;
+  /* border: 2px #091b19 solid; */
+  border-radius: 15px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  font-weight: bold;
+  width: 250px;
+  margin-bottom: 5px;
+}
+.svg-inline--fa {
+  color: #333;
+  height: 20px;
+}
+span {
+  font-size: 12px;
+}
+
+a {
+  font-size: 30px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+.social_container {
+  margin: 10px 0;
+}
+.social_container a {
+  border: 1px solid #333;
+  border-radius: 50%;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+}
+.form-container input {
+  background: #eee;
+  border: none;
+  font-family: "Montserrat", sand-serif;
+  border-radius: 5px;
+  padding: 12px 15px;
+  margin: 8px;
+  width: 100%;
+  color: #333;
+}
+.id_name {
+  text-transform: capitalize;
+}
+.button_sign {
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background: #ff4b2b;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  margin-top: 10px;
+}
+.button_sign:active {
+  transform: scale(0.95);
+}
+.button_sign:focus {
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
